@@ -1,0 +1,119 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
+@import url("http://fonts.webtoolhub.com/font-n17979-kruti-dev-010.aspx");
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+textarea {
+  resize: none;
+  -webkit-appearance: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  font-size: medium !important;
+}
+
+.header-text{   
+  font-family: 'Lucida Console';
+  font-size: xx-large;
+}
+
+.subheader-text{
+  font-family: 'calibri';
+  font-size: xx-large;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.subheader-text:before{
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 0%;
+  border-bottom: 3px solid #f0ad4e;
+}
+
+.about-us-text{
+  font-family: cursive;
+}
+
+.center-div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slogan{
+  text-align: center;
+  font-family: cursive;
+  color:#0275d8;
+}
+
+.inline-div{
+  display: inline-block;    
+}
+
+
+.animate-text::before {
+  
+  content: "English";
+  color: #d9534f;
+  animation: animate infinite 5s;
+}
+
+@keyframes animate {
+
+  0% {
+      content: "English";
+  }
+
+  25% {
+      content: "हिन्दी";
+  }
+
+  50% {
+      content: "मराठी";
+  }
+
+  75% {
+      content: "ગુજરાતી";
+  }
+}
+
+.login{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+
+.div-border{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+#back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;    
+    cursor: pointer;
+}
+
+.times-roman{
+  font-family: 'Times New Roman';
+  font-size: 16px;
+}
+
+.font-underline {
+  text-decoration: underline;
+}
