@@ -13,10 +13,11 @@ const Dictaphone = () => {
   
 
   const [language, setLanguage] = useState()
+  const [font, setFont] = useState('times-roman')
   const [listeningState, setListeningState] = useState('Start Listening')
-  const [output, setOutput] = useState('')
+  const [output, setOutput] = useState()
   const [speechToTextClass, setSpeechToTextClass] = useState('btn btn-warning')
-  const [textClass, setTextClass] = useState('form-control text-justify p-3 times-roman"')
+  const [textClass, setTextClass] = useState('form-control text-justify p-3')
   const [isBold, setBold] = useState(false);
   const [isItalic, setItalic] = useState(false);
   const [isUnderline, setUnderline] = useState(false);
@@ -31,6 +32,27 @@ To start translating your speech, press Start Listening button and speak!`
 
     const selectHandler = (event) => {
       setLanguage(event.target.value)
+    }
+
+    const setCustomFont = (event) => {
+      if(event.target.value === "timesRoman"){
+        setFont('times-roman')
+      }
+      else if(event.target.value === "krutidev010"){
+        setFont('krutidev010')
+      }
+      else if(event.target.value === "krutidev040"){
+        setFont('krutidev040')
+      }
+      else if(event.target.value === "krutidev055"){
+        setFont('krutidev055')
+      }
+      else if(event.target.value === "shivaji01"){
+        setFont('shivaji01')
+      }
+      else if(event.target.value === "shivaji05"){
+        setFont('shivaji05')
+      }
     }
 
     const speechToText = () => {
@@ -199,6 +221,22 @@ To start translating your speech, press Start Listening button and speak!`
                     </select>
                   </span>
               </span>
+
+              <span className="inline-div">
+                  <span className="inline-div m-1">
+                    <label>Custom Font: </label>
+                  </span>
+                  <span className="inline-div m-1">
+                    <select className="form-control" onChange={setCustomFont}>
+                    <option value="timesRoman">Times Roman</option>
+                      <option value="krutidev010">Kruti Dev 010</option>
+                      <option value="krutidev040">Kruti Dev 040</option>
+                      <option value="krutidev055">Kruti Dev 055</option>
+                      <option value="shivaji01">Shivaji 01</option>
+                      <option value="shivaji05">Shivaji 05</option>
+                    </select>
+                  </span>
+              </span>
             
               <span className="inline-div">
                 <button type="button" id="record" className={`m-1 ${speechToTextClass}`} onClick={speechToText}>
@@ -249,7 +287,7 @@ To start translating your speech, press Start Listening button and speak!`
                 <div class="form-group p-2 m-2">
                   <textarea 
                     ref={textareaElement}
-                    className={textClass} 
+                    className={`${textClass} ${font}`} 
                     rows="15" 
                     placeholder={placeholder} 
                     value={output} 
