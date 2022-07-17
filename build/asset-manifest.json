@@ -1,23 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6728500a.css",
-    "main.js": "/static/js/main.887d6e8d.js",
+    "main.css": "/static/css/main.01fa5f7b.css",
+    "main.js": "/static/js/main.da9e9356.js",
     "static/media/shrutlekha.png": "/static/media/shrutlekha.89d4535f3084dedd3c6c.png",
-    "static/media/Krutidev_040_bold.TTF": "/static/media/Krutidev_040_bold.e8e365cefd0562f0281d.TTF",
-    "static/media/Krutidev_055.TTF": "/static/media/Krutidev_055.39112bc89c608246d1f2.TTF",
     "static/media/side-img3.jpeg": "/static/media/side-img3.d1f743e20e016f041ed8.jpeg",
-    "static/media/k010.TTF": "/static/media/k010.43ac419a0f7f6d8c7a67.TTF",
-    "static/media/Shivaji05.ttf": "/static/media/Shivaji05.462f542403a268f894ba.ttf",
+    "static/media/Kruti-Dev-010.eot": "/static/media/Kruti-Dev-010.7f6fac394fb6047b63a7.eot",
+    "static/media/Kruti-Dev-010.ttf": "/static/media/Kruti-Dev-010.43ac419a0f7f6d8c7a67.ttf",
     "static/media/banner.png": "/static/media/banner.2a97c270c457d64e4db9.png",
-    "static/media/Shivaji01.ttf": "/static/media/Shivaji01.58c50cd0b18652d268a8.ttf",
-    "static/media/side-img1.jpg": "/static/media/side-img1.6f1c72291c1ec0817ded.jpg",
     "static/media/side-img2.jpg": "/static/media/side-img2.bd994738c4eb8deb2801.jpg",
     "index.html": "/index.html",
-    "main.6728500a.css.map": "/static/css/main.6728500a.css.map",
-    "main.887d6e8d.js.map": "/static/js/main.887d6e8d.js.map"
+    "main.01fa5f7b.css.map": "/static/css/main.01fa5f7b.css.map",
+    "main.da9e9356.js.map": "/static/js/main.da9e9356.js.map"
   },
   "entrypoints": [
-    "static/css/main.6728500a.css",
-    "static/js/main.887d6e8d.js"
+    "static/css/main.01fa5f7b.css",
+    "static/js/main.da9e9356.js"
   ]
 }
