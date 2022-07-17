@@ -58,10 +58,7 @@ export const checkAuth = (authObj) =>{
         if(getState().token != authObj.token)
         {
             const token = v4()
-            console.log(authObj.token)
-            console.log(token)
             localStorage.setItem("getUserAuthToken", token);
-            console.log(localStorage.getItem("getUserAuthToken"))
             db.ref(DATABASE).child(TABLE).child(getState().mobile).update({
                 token: token
             })
@@ -76,9 +73,6 @@ export const checkAuth = (authObj) =>{
 
 export const isUserActive = (authObj) =>{
     return async(dispatch, getState) =>{
-        console.log(getState().token)
-        console.log(authObj.token)
-
         if(getState().token != authObj.token)
         {
             dispatch(userActions.setLogin({

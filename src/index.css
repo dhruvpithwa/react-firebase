@@ -2,25 +2,14 @@
 @import url("http://fonts.webtoolhub.com/font-n17979-kruti-dev-010.aspx");
 
 @font-face {
-  font-family: 'krutiDev010';
-  src: url('./fonts/k010.TTF');
-}
-@font-face {
-  font-family: 'krutiDev040';
-  src: url('./fonts/Krutidev_040_bold.TTF');
-}
-@font-face {
-  font-family: 'krutiDev055';
-  src: url('./fonts/Krutidev_055.TTF');
-}
-@font-face {
-  font-family: 'Shivaji01';
-  src: url('./fonts/Shivaji01.ttf');
-}
-@font-face {
-  font-family: 'Shivaji05';
-  src: url('./fonts/Shivaji05.ttf');
-}
+  font-family: Font1;
+  src: url('fonts/Kruti-Dev-010.eot')
+ }
+ @font-face
+ {
+ font-family: Font1;
+ src: url('fonts/Kruti-Dev-010.ttf');
+ }
 
 html {
   scroll-behavior: smooth;
@@ -135,26 +124,11 @@ textarea {
   font-size: 16px;
 }
 
-.krutidev010{
-  font-family: 'krutiDev010';
-}
-
-.krutidev040{
-  font-family: 'krutiDev040';
-}
-
-.krutidev055{
-  font-family: 'krutiDev055';
-}
-
-.shivaji01{
-  font-family: 'Shivaji01';
-}
-
-.shivaji05{
-  font-family: 'Shivaji05';
-}
-
 .font-underline {
   text-decoration: underline;
+}
+
+.krutidev{
+  font-family: Font1;
+  font-size: 20px;
 }
