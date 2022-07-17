@@ -178,9 +178,10 @@ To start translating your speech, press Start Listening button and speak!`
 
     const toKrutiDev = () => {
       try{
-      const krutiText = Convert_to_Kritidev_010(output)
-      setOutput(krutiText);
-      setFont("krutidev");
+        setFont("krutidev");
+        const krutiText = Convert_to_Kritidev_010(output)
+        setOutput(krutiText);
+     
       }
       catch(error){
         console.log(error);
