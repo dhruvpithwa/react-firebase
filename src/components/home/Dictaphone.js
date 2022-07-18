@@ -16,7 +16,7 @@ const Dictaphone = () => {
   const [language, setLanguage] = useState()
   const [font, setFont] = useState('timesRoman')
   const [listeningState, setListeningState] = useState('Start Listening')
-  const [output, setOutput] = useState()
+  const [output, setOutput] = useState('')
   const [speechToTextClass, setSpeechToTextClass] = useState('btn btn-warning')
   const [textClass, setTextClass] = useState('form-control text-justify p-3')
   const [isBold, setBold] = useState(false);
@@ -73,13 +73,13 @@ To start translating your speech, press Start Listening button and speak!`
               for(let i = event.resultIndex; i < event.results.length; i++)
               {
                   let transcript = event.results[i][0].transcript;
-                  // transcript.replace("\n", "<br>")
+                  transcript.replace("\n", "<br>")
               
                   if(event.results[i].isFinal){
-                  finalTranscripts += transcript
+                    finalTranscripts += transcript
                   }
                   else{
-                  interimTranscripts += transcript
+                    interimTranscripts += transcript
                   }
               }
               
