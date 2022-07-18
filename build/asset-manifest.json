@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.01fa5f7b.css",
-    "main.js": "/static/js/main.da9e9356.js",
+    "main.css": "/static/css/main.02a3d9ba.css",
+    "main.js": "/static/js/main.8d51ef6d.js",
     "static/media/shrutlekha.png": "/static/media/shrutlekha.89d4535f3084dedd3c6c.png",
     "static/media/side-img3.jpeg": "/static/media/side-img3.d1f743e20e016f041ed8.jpeg",
     "static/media/Kruti-Dev-010.eot": "/static/media/Kruti-Dev-010.7f6fac394fb6047b63a7.eot",
@@ -9,11 +9,11 @@
     "static/media/banner.png": "/static/media/banner.2a97c270c457d64e4db9.png",
     "static/media/side-img2.jpg": "/static/media/side-img2.bd994738c4eb8deb2801.jpg",
     "index.html": "/index.html",
-    "main.01fa5f7b.css.map": "/static/css/main.01fa5f7b.css.map",
-    "main.da9e9356.js.map": "/static/js/main.da9e9356.js.map"
+    "main.02a3d9ba.css.map": "/static/css/main.02a3d9ba.css.map",
+    "main.8d51ef6d.js.map": "/static/js/main.8d51ef6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.01fa5f7b.css",
-    "static/js/main.da9e9356.js"
+    "static/css/main.02a3d9ba.css",
+    "static/js/main.8d51ef6d.js"
   ]
 }

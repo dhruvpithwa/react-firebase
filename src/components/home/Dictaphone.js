@@ -73,7 +73,7 @@ To start translating your speech, press Start Listening button and speak!`
               for(let i = event.resultIndex; i < event.results.length; i++)
               {
                   let transcript = event.results[i][0].transcript;
-                  transcript.replace("\n", "<br>")
+                  // transcript.replace("\n", "<br>")
               
                   if(event.results[i].isFinal){
                   finalTranscripts += transcript
